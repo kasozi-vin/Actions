@@ -7,6 +7,13 @@ jobs:
     steps:
       - name: prints my name to the console
         run: echo 'kasozi vincent'
+  job002:
+    needs: job001
+    runs-on: windows-latest
+    steps:
+      - name: doing it for the second time
+        run: echo 'Kasozi Vincent again'
+    
   
   
    
