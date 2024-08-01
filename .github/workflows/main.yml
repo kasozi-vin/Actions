@@ -1,6 +1,5 @@
 name: action001
-on: push
-workflow_dispatch:
+on: [push,workflow_dispatch]
 jobs:
   job001:
     runs-on: ubuntu-latest
