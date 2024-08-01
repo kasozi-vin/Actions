@@ -1,0 +1,13 @@
+name: action001
+on: push
+
+jobs:
+  job001:
+    runs-on: ubuntu-latest
+    steps:
+      - name: prints my name to the console
+        run: echo 'kasozi vincent'
+  
+  
+   
+  
