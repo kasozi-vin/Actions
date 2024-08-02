@@ -1,0 +1,9 @@
+name: Issues_Workflow
+on: issues
+
+jobs:
+  notify:
+    runs-on: ubuntu-latest
+    steps:
+      - name: notify the user
+        run: echo An issue was posted
