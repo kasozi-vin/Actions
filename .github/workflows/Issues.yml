@@ -1,5 +1,5 @@
 name: Issues_Workflow
-on: issues
+on: issues:
 
 jobs:
   notify:
