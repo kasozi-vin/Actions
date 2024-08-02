@@ -1,6 +1,8 @@
 name: Issues_Workflow
 on: 
   issues:
+    types:
+      - opened
 
 jobs:
   notify:
